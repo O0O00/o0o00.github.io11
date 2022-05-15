@@ -1,0 +1,59 @@
+/* 전체 레이아웃 */
+body {
+    background-color: white;
+    margin: 0%;
+}
+
+#container {
+    position: static;
+    margin: 0px auto;
+    width: 80vw;
+}
+
+/* 제목 */
+#title {
+    padding: 24px;
+    margin: 16px;
+    font-size: 24pt;
+}
+#tip {
+    margin: 14px 24px 24px 24px;
+    padding: 24px;
+    line-height: 24px;
+    border-radius: 2em;
+    border: 1px solid rgb(221, 220, 220);
+}
+.card {
+    margin: 0px 24px 24px 24px;
+    color: white;
+    font-size: 24pt;
+    text-align: center;
+    border-radius: 1em;
+}
+
+#card1 {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    box-shadow: 0 4px 16px rgba(255, 166, 0, 0.3);
+
+}
+
+#card2 {
+    background-color: #00b1ff;
+    background-image: linear-gradient(180deg, #00b1ff 0%, #0061ff 100%);
+    box-shadow: 0 4px 16px rgba(0, 183, 255, 0.3);
+}
+
+#card3 {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    box-shadow: 0 4px 16px rgba(70, 144, 255, 0.3);
+}
+
+
+@media (max-width: 480px) {
+    #container {
+        width: 100vw;
+    }
+
+}

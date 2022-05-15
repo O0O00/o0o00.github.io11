@@ -1,0 +1,69 @@
+/* 전체 레이아웃 */
+body {
+    background-color: white;
+    margin: 0%;
+}
+
+#container {
+    margin: 0px auto;
+    width: 80vw;
+    height: 100%;
+
+}
+
+
+/* 제목 */
+#title {
+    padding: 24px;
+    margin: 24px;
+    font-size: 24pt;
+}
+
+#clock {
+    margin: 24px 24px 0px 24px;
+    border-radius: 2em;
+    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.5);
+    border: 1px solid rgb(221, 220, 220);
+    overflow: hidden;
+}
+
+#clock img {
+    width: 100%;
+    object-fit: fit-content;
+}
+
+#desc {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.5);
+    margin: 14px 24px 24px 24px;
+    padding: 24px;
+    line-height: 24px;
+    border-radius: 2em;
+    border: 1px solid rgb(221, 220, 220);
+}
+
+
+
+/* 버튼 */
+#go {
+    position: fixed;
+    margin: 16px;
+    padding: 16px;
+    font-size: large;
+    text-align: center;
+    color: white;
+    background-color: #0072de;
+    box-shadow: 0 4px 16px rgba(0, 79, 255, 0.5);
+    border-radius: 2em;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+@media (max-width: 480px) {
+    #container {
+        width: 100vw;
+        height: 100%;
+    }
+
+}

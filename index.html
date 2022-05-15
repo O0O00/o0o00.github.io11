@@ -1,0 +1,48 @@
+<!-- HTML 5 -->
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>지구과학 캠페인</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="title">
+            <strong>
+                지구온난화
+            </strong>
+        </div>
+        <div id="comparison">
+            <figure>
+                <div id="divisor"></div>
+            </figure>
+            <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor()">
+        </div>
+        <div id="desc">
+            &nbsp;&nbsp;18세기 영국의 산업혁명 이래 인류는 전례없는 발전을 이뤄냈습니다.<br>
+            초록 숲 대신 회색 콘크리트 숲이 만들어지고 말 대신 비행기와 자동차가 다니고 원하는 물건은 몇번의 클릭이면 구할 수 있는 시대가 되었습니다.<br><br>
+            &nbsp;&nbsp;하지만 이런 빛 뒤에는 항상 그림자가 드리우기 마련이죠.<br>
+            &nbsp;&nbsp;빌딩들이 들어서면서 수없이 많은 나무들이 스러져갔고, 자동차가 말을 대신하면서 배기가스가 늘어나는 등 인류의 활동으로 지구의 온도가 점점 상승하게 된
+            것입니다.<br>
+            &nbsp;&nbsp;지구의 온도가 상승하면서 지구에는 인류가 겪어보지 못했던 재앙이 발생하고 있습니다.<br>
+        </div>
+        <script type="text/javascript" src="./script.js">
+            var screenWidth = screen.width;
+            if (screenWidth > 480) {
+                alert("본 사이트는 모바일에 최적화 되어 큰 화면으로 접속 시 화면이 깨질 수 있습니다.")
+            }
+        </script>
+        <div>
+            <br><br><br>
+        </div>
+    </div>
+    <div id="go" onclick="document.location.href='clock.html'">
+        &nbsp;→&nbsp;
+    </div>
+</body>
+
+</html>
