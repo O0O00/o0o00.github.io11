@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
     <link rel="stylesheet" href="./css/index.css">
     <title>지구과학 캠페인</title>
 </head>
@@ -16,11 +17,9 @@
                 지구온난화
             </strong>
         </div>
-        <div id="comparison">
-            <figure>
-                <div id="divisor"></div>
-            </figure>
-            <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor()">
+        <div class="juxtapose">
+            <img class="img" src="/images/after_small.png"/>
+            <img class="img" src="/images/before_small.png"/>
         </div>
         <div id="desc">
             &nbsp;&nbsp;18세기 영국의 산업혁명 이래 인류는 전례없는 발전을 이뤄냈습니다.<br>
@@ -30,12 +29,7 @@
             것입니다.<br>
             &nbsp;&nbsp;지구의 온도가 상승하면서 지구에는 인류가 겪어보지 못했던 재앙이 발생하고 있습니다.<br>
         </div>
-        <script type="text/javascript" src="./script.js">
-            var screenWidth = screen.width;
-            if (screenWidth > 480) {
-                alert("본 사이트는 모바일에 최적화 되어 큰 화면으로 접속 시 화면이 깨질 수 있습니다.")
-            }
-        </script>
+        <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
         <div>
             <br><br><br>
         </div>
