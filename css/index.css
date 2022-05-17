@@ -1,7 +1,7 @@
 /* 전체 레이아웃 */
 
 body {
-    background-color: white;
+    background-color: rgb(250, 250, 250);
     margin: 0%;
 }    
 
@@ -19,23 +19,64 @@ body {
     font-size: 24pt;
 }    
 
+
 /*이미지 컨테이너*/
-.jaxtapsoe.jaxtapose0 {
-    margin: 24px 24px 24px 24px auto;
-    max-width: 100%;
+#img-container {
+    position: relative;
+    margin: 24px;
+    border-radius: 2em;
+    border: 1px solid rgb(221, 220, 220);
+    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.5);
+
+    overflow: hidden;
+
 }
-.img {
-    width: 50%;
+
+img {
+    width: 100%;
+    top: 0;
+    position: absolute;
+
 }
+
+#resize {
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+}
+#ghost {
+    position: relative;
+}
+
+#slider {
+    position: absolute;
+    top: 0;
+    -webkit-appearance: none;
+    width: calc(100% + 40px);
+    height: 100%;
+    margin-left: -20px;
+    background-color: transparent;
+    outline: none;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    background-size: contain;
+    cursor: pointer;
+}
+
 
 /* 설명 */
 #desc {
     position: static;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 16px rgba(175, 175, 175, 0.5);
-    margin: 14px 24px 24px 24px;
+    margin: 24px 24px 24px 24px;
     padding: 24px;
-    line-height: 24px;
+    font-size: 12pt;
+    line-height: 20pt;
     border-radius: 2em;
     border: 1px solid rgb(221, 220, 220);
 }    

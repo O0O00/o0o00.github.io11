@@ -29,15 +29,16 @@ body {
 
 #clock img {
     width: 100%;
-    object-fit: fit-content;
+    object-fit: fill;
 }
 
 #desc {
     background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 16px rgba(175, 175, 175, 0.5);
-    margin: 14px 24px 24px 24px;
+    margin: 24px 24px 24px 24px;
     padding: 24px;
-    line-height: 24px;
+    font-size: 12pt;
+    line-height: 20pt;
     border-radius: 2em;
     border: 1px solid rgb(221, 220, 220);
 }
