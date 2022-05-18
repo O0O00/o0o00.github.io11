@@ -21,8 +21,8 @@ body {
 
 #clock {
     margin: 24px 24px 0px 24px;
-    border-radius: 2em;
-    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.5);
+    border-radius: 1.5em;
+    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.2);
     border: 1px solid rgb(221, 220, 220);
     overflow: hidden;
 }
@@ -34,12 +34,12 @@ body {
 
 #desc {
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.5);
+    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.2);
     margin: 24px 24px 24px 24px;
     padding: 24px;
     font-size: 12pt;
     line-height: 20pt;
-    border-radius: 2em;
+    border-radius: 1.5em;
     border: 1px solid rgb(221, 220, 220);
 }
 

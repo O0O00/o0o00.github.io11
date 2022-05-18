@@ -1,0 +1,54 @@
+/* 전체 레이아웃 */
+
+body {
+    background-color: rgb(250, 250, 250);
+    margin: 0%;
+}
+
+#container {
+    margin: 0px auto;
+    width: 80vw;
+    height: 100%;
+}
+
+
+/* 제목 */
+#title {
+    padding: 24px;
+    margin: 24px;
+    font-size: 24pt;
+}
+
+.item {
+    margin: 0px 24px 24px 24px;
+    padding: 24px;
+    font-size: 20pt;
+    border-radius: 1em;
+    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.5);
+    border: 1px solid rgb(221, 220, 220);
+    overflow: hidden;
+}
+
+.ititle {
+    font-size: 20pt;
+}
+
+.icontent {
+    margin: 8px;
+    font-size: 12pt;
+    line-height: 20pt;
+}
+
+
+
+
+@media (max-width: 480px) {
+    #container {
+        width: 100vw;
+        height: 100%;
+    }
+
+    #header {
+        font-size: 24pt;
+    }
+}

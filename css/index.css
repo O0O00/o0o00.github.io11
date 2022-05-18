@@ -24,9 +24,8 @@ body {
 #img-container {
     position: relative;
     margin: 24px;
-    border-radius: 2em;
-    border: 1px solid rgb(221, 220, 220);
-    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.5);
+    border-radius: 1.5em;
+    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.2);
 
     overflow: hidden;
 
@@ -61,7 +60,28 @@ img {
     -webkit-appearance: none;
     height: 25px;
     width: 25px;
-    background-color: white;
+    background-color: rgb(143, 143, 143);
+    border: 2px solid white;
+    border-radius: 50%;
+    background-size: contain;
+    cursor: pointer;
+}
+#slider::-moz-slider-thumb {
+    -webkit-appearance: none;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(143, 143, 143);
+    border: 2px solid white;
+    border-radius: 50%;
+    background-size: contain;
+    cursor: pointer;
+}
+#slider::-ms-slider-thumb {
+    -webkit-appearance: none;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(143, 143, 143);
+    border: 2px solid white;
     border-radius: 50%;
     background-size: contain;
     cursor: pointer;
@@ -72,12 +92,12 @@ img {
 #desc {
     position: static;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.5);
+    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.2);
     margin: 24px 24px 24px 24px;
     padding: 24px;
     font-size: 12pt;
     line-height: 20pt;
-    border-radius: 2em;
+    border-radius: 1.5em;
     border: 1px solid rgb(221, 220, 220);
 }    
 

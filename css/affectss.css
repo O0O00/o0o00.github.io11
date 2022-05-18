@@ -19,22 +19,22 @@ body {
     font-size: 24pt;
 }
 
-#clock {
+#img-container {
     margin: 24px 24px 0px 24px;
     border-radius: 2em;
-    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.5);
+    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.2);
     border: 1px solid rgb(221, 220, 220);
     overflow: hidden;
 }
 
-#clock img {
+#img-container img {
     width: 100%;
     object-fit: fit-content;
 }
 
 #desc {
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.5);
+    box-shadow: 0 4px 16px rgba(175, 175, 175, 0.2);
     margin: 14px 24px 24px 24px;
     padding: 24px;
     font-size: 12pt;
@@ -54,12 +54,13 @@ body {
     text-align: center;
     color: white;
     background-color: rgb(251, 171, 126);
-    background-image: linear-gradient(62deg, rgb(248, 141, 79) 0%, rgb(247, 206, 104) 100%);
+    background-image: linear-gradient(62deg, rgb(255, 129, 56) 0%, rgb(255, 203, 72) 100%);
     box-shadow: 0 4px 16px rgba(251, 171, 126, 0.3);
     border-radius: 2em;
     bottom: 0px;
     right: 0px;
 }
+
 #go2 {
     position: fixed;
     margin: 16px;
@@ -74,6 +75,7 @@ body {
     bottom: 0px;
     right: 0px;
 }
+
 #go3 {
     position: fixed;
     margin: 16px;
