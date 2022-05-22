@@ -19,16 +19,14 @@ if (getCookie('desert') == null) {
 	setCookie('ice', 'false', 1);
 }
 if (getCookie('desert') == "true" && getCookie('water') == "true" && getCookie('ice') == "true") {
-	document.getElementById("go").style.color = "white";
-	document.getElementById("go").style.backgroundColor = "#0072de";
+	changeBtnClr();
 }
 
 function desert() {
 	setCookie("desert", "true", 1);
 	document.location.href = "/affects/desert.html"
 	if (getCookie('desert') == "true" && getCookie('water') == "true" && getCookie('ice') == "true") {
-		document.getElementById("go").style.color = "white";
-		document.getElementById("go").style.backgroundColor = "#0072de";
+	changeBtnClr();
 	}
 }
 
@@ -36,8 +34,7 @@ function water() {
 	setCookie("water", "true", 1);
 	document.location.href = "/affects/water.html"
 	if (getCookie('desert') == "true" && getCookie('water') == "true" && getCookie('ice') == "true") {
-		document.getElementById("go").style.color = "white";
-		document.getElementById("go").style.backgroundColor = "#0072de";
+		changeBtnClr();
 	}
 }
 
@@ -45,8 +42,7 @@ function whitening() {
 	setCookie("ice", "true", 1);
 	document.location.href = "/affects/whitening.html"
 	if (getCookie('desert') == "true" && getCookie('water') == "true" && getCookie('ice') == "true") {
-		document.getElementById("go").style.color = "white";
-		document.getElementById("go").style.backgroundColor = "#0072de";
+		changeBtnClr();
 	}
 }
 
@@ -56,4 +52,10 @@ function goNext() {
 	} else {
 		alert("먼저 세 가지 항목을 모두 확인해보세요!")
 	}
+}
+
+function changeBtnClr() {
+	document.getElementById("go").style.color = "white";
+	document.getElementById("go").style.backgroundColor = "#0094FF";
+	document.getElementById("go").style.backgroundImage = "linear-gradient(85deg, #0080de 0%, #3B8DDE 100%)";
 }

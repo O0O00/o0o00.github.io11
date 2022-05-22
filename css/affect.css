@@ -58,7 +58,6 @@ body {
 
 /* 버튼 */
 #go {
-    /* display: none; */
 
     position: fixed;
     bottom: 0px;
@@ -78,3 +77,4 @@ body {
         height: 100%;
     }
 }
+
